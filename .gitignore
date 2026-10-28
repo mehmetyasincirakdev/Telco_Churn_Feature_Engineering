@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local data and generated reports
+data/*
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+reports/
+catboost_info/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
